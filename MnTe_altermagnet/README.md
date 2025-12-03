@@ -1,4 +1,7 @@
-# This repository contains the raw and processed data, as well as the analysis scripts, for the MnTe XMCD experiment described in the associated manuscript.
+# See for https://doi.org/10.5281/zenodo.16803814 raw and processed datasets
+
+
+## This repository contains the analysis scripts, for the MnTe XMCD experiment described in the associated manuscript.
 
 ---
 
