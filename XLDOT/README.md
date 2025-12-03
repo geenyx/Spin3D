@@ -7,4 +7,4 @@ X-ray linear dichroic tomography of crystallographic and topological defects.
 Nature 636, 354 (2024).
 https://www.nature.com/articles/s41586-024-08233-y
 
-See https://zenodo.org/records/14258650 for reconstructed datasets.
+See https://zenodo.org/records/14258650 for reconstructed datasets and https://magtomo.readthedocs.io/en/latest/usage.html#orientation-tomography-xmld for Python's version (useful to understand the logic only).
