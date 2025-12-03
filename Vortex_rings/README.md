@@ -12,4 +12,4 @@ Contains:
 
 - Paraview state files for the visualisation and analysis of the configurations.
 
-See https://zenodo.org/records/4041745 for vtk reconstructions.
+See https://zenodo.org/records/4041745 for vtk reconstructions and .mat files.
