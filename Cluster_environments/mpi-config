@@ -1,0 +1,28 @@
+Host gatezero
+ Hostname gate1.mpcdf.mpg.de
+ User gilau
+ ControlMaster auto
+ ControlPersist 12h
+ ControlPath ~/.ssh/master-%C
+
+Host raven
+ Hostname raven.mpcdf.mpg.de
+ User gilau
+ ControlMaster auto
+ ControlPersist 8h
+ ControlPath ~/.ssh/master-%C
+ # OpenSSH >=7.3
+ ProxyJump gatezero
+ # OpenSSH<=7.2
+ #ProxyCommand ssh -W %h:%p gatezero
+
+Host viper
+ Hostname viper.mpcdf.mpg.de
+ User gilau
+ ControlMaster auto
+ ControlPersist 8h
+ ControlPath ~/.ssh/master-%C
+ # OpenSSH >=7.3
+ ProxyJump gatezero
+ # OpenSSH<=7.2
+ #ProxyCommand ssh -W %h:%p gatezero
