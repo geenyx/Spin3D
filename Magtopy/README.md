@@ -1,3 +1,6 @@
+
+# For datasets see https://gitlab.com/magtopy/magtopy
+
 # Magnetic Reconstruction from Tomography
 
 PyCUDA library to reconstruct the three components of the magnetization using as input a set of projections from tomographic measurements.
