@@ -7,3 +7,5 @@ Licence inforrmation is provided, and a readme file offers instructions for use.
 Work that makes use of this code should cite:
 
 Donnelly et al., "Tomographic reconstruction of a three-dimensional magnetization vector field", New Journal of Physics (2018)
+See also https://zenodo.org/records/1324335
+
